@@ -20,7 +20,7 @@ public class ExampleArrowKeys {
 			if (x < Zen.getZenWidth() - 32
 					&& Zen.isVirtualKeyPressed(KeyEvent.VK_RIGHT))
 				x = x + 4;
-			Zen.drawImage("sprite1.gif", x, y);
+			Zen.drawImage("sprite4.gif", x, y);
 			Zen.flipBuffer();
 			Zen.sleep(8);
 		}
